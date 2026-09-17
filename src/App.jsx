@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './assets/components/navbar/navbar'
 import Home from './assets/components/home/home'
 import Industries from './assets/components/industries-connected/industries'
+import About from './assets/components/about/about'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/industries' element={<Industries/>}/>
+        <Route path='/about' element={<About/>}/>
       </Routes>
     </>
   )
