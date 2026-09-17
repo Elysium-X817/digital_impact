@@ -14,9 +14,10 @@ const Navbar = () => {
     </div>
     <ul className="text-[#0796D6] flex gap-20">
       <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
+      <li><Link to="/industries">Industries</Link></li>
+      <li><Link to="/about">About Us</Link></li>
     </ul>
-      <button className="cursor-pointer bg-[#0796D6] px-6 py-2 rounded-[50px] text-sm">Contact Us</button>
+      <button className="cursor-pointer bg-[#0796D6] px-6 py-2 rounded-[50px] text-sm hover:scale-125 transition-transform duration-1000">Contact Us</button>
     </nav>
     </>
   )
