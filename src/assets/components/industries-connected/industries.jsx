@@ -10,7 +10,7 @@ import Fintech from './Fintech.jpg'
 const Industries = () => {
     return(
         <>
-        <main>
+        <main className='mb-10'>
             <center>
                 <h1 className='font-[750] text-4xl'>Industries We<br/><span className='text-[#0796D6]'>Work With</span></h1>
                 <p>We work as a technology partner for various industries<br/>Our expertise can be applied to the specific demands<br/>and nuances in your industry</p>
